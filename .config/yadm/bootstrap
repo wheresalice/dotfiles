@@ -23,3 +23,7 @@ if [ ! -d "$HOME/.oh-my-zsh" ]; then
   echo "Installing oh-my-zsh"
   sh -c "$(RUNZSH=no KEEP_ZSHRC=yes curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
+
+mkdir -p ~/git_src
+mkdir -p ~/go
+mkdir -p ~/bin
