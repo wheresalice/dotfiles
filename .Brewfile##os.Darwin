@@ -1,6 +1,7 @@
 tap 'homebrew/bundle'
 tap 'homebrew/core'
 tap 'goreleaser/tap'
+tap 'homebrew/cask-fonts'
 
 brew 'awscli'
 brew 'bats-core'
@@ -19,3 +20,4 @@ cask 'adoptopenjdk'
 cask 'alacritty'
 cask 'gimp'
 cask 'spectacle'
+cask 'font-fira-code'
